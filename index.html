@@ -1,14 +1,14 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <meta charset="UTF-8">
+    <title>Yusuf Karadeniz</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/778e0ef6da.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link rel="stylesheet" href="style.css">
-    <title>Yusuf KARADENİZ</title>
-  </head>
-  <body>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+</head>
+<body>
     <nav class = "navbar navbar-dark bg-dark navbar-expand-lg text-white fixed-top">
         <div class = "container py-1">
             <a href="index.html" class = "navbar-brand">Muyuka</a>
@@ -28,10 +28,12 @@
                         Şehrim
                       </a>
                       <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Topkapı Sarayı</a>
-                        <a class="dropdown-item" href="#">Kız Kulesi</a>
-                        <a class="dropdown-item" href="#">Yere Batan Sarnıcı</a>
-                        <a class="dropdown-item" href="#">Galata Kulesi</a>
+                        <a class="dropdown-item" href="sehrim.html">İstanbul</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="topkapisarayi.html">Topkapı Sarayı</a>
+                        <a class="dropdown-item" href="kizkulesi.html">Kız Kulesi</a>
+                        <a class="dropdown-item" href="yerebatansarnici.html">Yere Batan Sarnıcı</a>
+                        <a class="dropdown-item" href="galatakulesi.html">Galata Kulesi</a>
                       </div>                      
                     </li>
                     <li class = "nav-item px-2"> 
@@ -48,36 +50,37 @@
             </div>
         </div>
     </nav>
-
-    <section class="part1">
-                <div class="myPhoto">
-                    <img src ="Images/IMG_20190811_215805_907.jpg" alt="MyPhoto"width="400px" height="400px">                  
-                </div>
-                <div class="girisMetinDiv">
-                    <p class="yaziTipi"> Merhabalar Web Siteme Hoş Geldiniz.<br><br>Ben Muhammed Yusuf KARADENİZ. 19 yaşındayım. Aslen Trabzonluyum ve İstanbul'da yaşıyorum. Sakarya Üniversitesi Bilgisayar Mühendisliği 1.sınıf öğrencisiyim. 
-                    Bu bölümü seçmemdeki en büyük etken tamamen ilgi alanımın büyük bir kısmını bilgisayar ve türevlerinin oluşturmasıydı.<br><br>
-                    Okuldaki derslerimin ve ödevlerimin dışında vakit buldukça Siber Güvenlik ile ilgili çalışmalarda bulunuyorum çünkü kendimi hem daha mutlu
-                    hem daha uygun hissediyorum.<br>
-                    </p>
-                    <div class="butonHakkımda">
-                        <a href="#secondChapter" class="btn btn-outline-dark btn-lg">Lütfen Kaydırın</a>          
-                      </div>         
+      
+    <section class="section1Hakkimda">
+        <div class="text-center">
+          <img src="Images/IMG_20190811_215805_907.jpg" class="sola-kaydir img-fluid"  width="550px" height="550px"><br>
+          <p class="hakkimdaYaziTipi"><br> Merhabalar Web Siteme Hoş Geldiniz.<br><br>Ben Muhammed Yusuf KARADENİZ. 19 yaşındayım. Aslen Trabzonluyum ve İstanbul'da yaşıyorum. Sakarya Üniversitesi Bilgisayar Mühendisliği 1.sınıf öğrencisiyim. 
+            Bu bölümü seçmemdeki en büyük etken tamamen ilgi alanımın büyük bir kısmını bilgisayar ve türevlerinin oluşturmasıydı.<br><br>
+            Okuldaki derslerimin ve ödevlerimin dışında vakit buldukça Siber Güvenlik ile ilgili çalışmalarda bulunuyorum çünkü kendimi hem daha mutlu
+            hem daha uygun hissediyorum.<br><br><br><br>
+            <a href="#section2" class="btn btn-outline-dark btn-lg">Lütfen Kaydırınız</a>  
+            </p><br><br>                 
+          </div>
     </section>
 
-    <section id="secondChapter">
-      <p class="hobilerimBaslik">HOBİLERİM</p>
-        <div class="container hobilerimDiv">
+    <section class="section2Hakkimda" id="section2">
+        <div class="container">
             <div class="bd-example pt-5">
               <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
                 <ol class="carousel-indicators">
                   <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                   <li data-target="#myCarousel" data-slide-to="1"></li>
                   <li data-target="#myCarousel" data-slide-to="2"></li>
+                  <li data-target="#myCarousel" data-slide-to="3"></li>
                 </ol>
-                
+
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="Images/yuzme.jpg" class="image" alt="Yüzme">
+                    <img src="Images/hobby.jpg" class="d-block w-100" alt="...">                    
+                  </div>
+
+                  <div class="carousel-item">
+                    <img src="Images/yüzme.jpg" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                       <h5 style="color:palevioletred; background-color: white; font-weight: 900;">YÜZME</h5>
                       <p style="color:palevioletred; background-color: white; font-weight: 900;">Ayda en az 4 kez havuza gitmeye çalışırım. Yüzme en zevk aldığım ve en faydalı gördüğüm aktivitelerim arasında.</p>
@@ -85,15 +88,14 @@
                   </div>
 
                   <div class="carousel-item">
-                   <img src="Images/masatenisi.jpg" class="image" alt="Tenis">
+                   <img src="Images/masatenisi.jpg" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                       <h5 style="color:palevioletred;  background-color: white;font-weight: 900;">MASA TENİSİ </h5>
                      <p style="color:palevioletred; background-color: white; font-weight: 900;">Özel olarak vakit harcadığım aktivitelerimden birisidir. Kendimi başarılı gördüğüm aktivitelerden birisidir.</p>
                     </div>
                   </div>
-
                   <div class="carousel-item">
-                    <img src="Images/futbol.jpg" class="image" alt="Futbol">
+                    <img src="Images/futbol.jpg" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                       <h5 style="color:orange; background-color: white; font-weight: 900;">FUTBOL</h5>
                       <p style="color:orange; background-color: white; font-weight: 900;">Birçok kişininde olduğu gibi benimde zevk alarak yaptığım sporlardan birisi de futboldur. Okul sürecinde çok vakit bulamasamda
@@ -114,35 +116,31 @@
             </div>
           </div>
    </section>
-    
-   
-   
-   <footer class = "bg-dark">
-    <div class = "container text-white">
-      <div class = "row">
-        <div class="footerDiv">
-          <p><marquee style="width: 155px; height: 50px" _mce_style="width: 200px; height: 50px;" direction="left" behavior="scroll" scrollamount="5"> <b>	&#x2764	&#x2764	&#x2764 Yusuf KARADENİZ &#x2764	&#x2764	&#x2764</b></marquee></p>
-        </div>
-        <div class="iconDiv1">
-          <ul class="listFooter">
-            <li><i class="fab fa-facebook-square"></i></li><br>
-            <li><i class="fab fa-instagram"></i></li><br>
-            <li><i class="fab fa-linkedin"></i></li><br>
-          </ul>                   
+
+   <footer class="bg-dark text-center">
+    <div class="container">
+      <div class="row pt-5 mb-3"></div>
+      
+      <div class="">
+        <a href="https://www.facebook.com/yusuf.karadeniz.182" class="fb-ic">
+          <i class="fab fa-facebook text-white mr-4"> </i>
+        </a>
+        <a class="tw-ic" href="https://twitter.com/yussufkaradeniz">
+          <i class="fab fa-twitter text-white mr-4"> </i>
+        </a>
+        <a class="li-ic" href="https://www.linkedin.com/in/yussufkaradeniz">
+          <i class="fab fa-linkedin text-white mr-4"> </i>
+        </a>
+        <a class="ins-ic" href="https://www.instagram.com/yussufkaradeniz/">
+          <i class="fab fa-instagram text-white mr-4"> </i>
+        </a>         
       </div>
-      <div class="iconDiv2">
-        <ul class="listFooter">
-          <li class="footerYaziTipi">facebook.com/yusuf.karadeniz.182</li><br>
-          <li class="footerYaziTipi">instragram.com/yussufkaradeniz</li><br>
-          <li class="footerYaziTipi">linkedin.com/yussufkaradeniz</li><br>
-        </ul>
-      </div>
-  </div>
-    </footer>
-    
+    </div>
+    <div class="footer-copyright text-center py-3 text-white">© Yusuf Karadeniz</div>
+  </footer>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  </body>
+</body>
 </html>
